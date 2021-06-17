@@ -5,9 +5,6 @@ document.getElementById("txt").innerHTML = "Changed from JAVASCRIPT file!!";
 function myf(){
   document.getElementById("txt").innerHTML="function call done!"+a;
   a = a + 1;
+  console.log(a);
 }
 
-console.log(a)
-//document.getElementById("b").style.color = 'red';
-//document.getElementById("b").click.call=myf();
-document.getElementById("button1").click.call = myf();
